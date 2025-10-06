@@ -35,7 +35,7 @@
   - pandas for data manipulation
 
   - matplotlib and seaborn for visualization
-  - ```
+-```
 categorical_cols = df[["BRId", "GenderId", "IAId", "Amount of Credit Cards", "Nationality", "Occupation", "Fee Structure", "Loyalty Classification", "Properties Owned", "Risk Weighting", "Income Band"]].columns
 sns.set(style="whitegrid", palette="pastel")
 
@@ -44,7 +44,8 @@ for i, predictor in enumerate(df[categorical_cols].columns):
     ax = sns.countplot(data=df, x=predictor, hue=predictor, palette="Set2", order=df[predictor].value_counts().index)
 
   Rotate x-axis labels if too long
-  plt.xticks(rotation=45, ha='right')```
+  plt.xticks(rotation=45, ha='right')
+    ```
 
 
 ### 3. Dashboard Creation
