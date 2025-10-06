@@ -72,10 +72,26 @@ for i, predictor in enumerate(df[categorical_cols].columns):
 
 ### Tools & Technologies Used
 
-- **MySQL – Database structuring and querying**
+- MySQL – Database structuring and querying
 
 - Jupyter Notebook – Data preprocessing and statistical analysis
 
 - Python Libraries – pandas, numpy, seaborn, matplotlib
 
 - Power BI – Data visualization and dashboard creation
+
+
+### Key Outcomes
+
+- Enabled data-driven insights into customer and financial metrics
+
+- Streamlined large data into visual, actionable information
+
+- Supported business users in understanding banking KPIs across various dimensions (gender, relationship type, investment advisors, etc.)
+
+
+## Conclusion
+
+This project successfully demonstrates the end-to-end development of a data-driven Banking Dashboard, starting from raw data ingestion to the final visual analytics layer. By leveraging MySQL for data structuring, Python (Jupyter Notebook) for data preparation and analysis, and Power BI for dashboard creation, the project showcases a full-stack data workflow.
+
+The dashboard provides clear, concise, and actionable insights into key financial and customer metrics, which can be used by stakeholders to monitor performance, optimize banking operations, and make informed strategic decisions. The process highlights the importance of data cleaning, exploration, and visualization in transforming complex datasets into valuable business intelligence.
