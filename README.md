@@ -51,20 +51,31 @@ for i, predictor in enumerate(df[categorical_cols].columns):
 
 ### 3. Dashboard Creation
 
-Imported the cleaned and processed data into Power BI.
+- Imported the cleaned and processed data into Power BI.
 
-Designed an interactive dashboard that highlights:
+- Designed an interactive dashboard that highlights:
 
-Total Clients: 3,000
+  - Total Clients: 3,000
 
-Total Loans: 4.38bn
+  - Total Loans: 4.38bn
 
-Bank Loans: 1.77bn
+  - Bank Loans: 1.77bn
 
-Business Lending: 2.60bn
+  - Business Lending: 2.60bn
 
-Total Deposits: 3.77bn (with breakdowns by account type)
+  - Total Deposits: 3.77bn (with breakdowns by account type)
 
-Accounts: Checking (963.3M), Savings (698.7M), Foreign Currency (89.65M), Engagement Accounts
+  - Accounts: Checking (963.3M), Savings (698.7M), Foreign Currency (89.65M), Engagement Accounts
 
-Total Credit Cards Issued: 3,000
+  - Total Credit Cards Issued: 3,000
+
+
+### Tools & Technologies Used
+
+- **MySQL – Database structuring and querying**
+
+- Jupyter Notebook – Data preprocessing and statistical analysis
+
+- Python Libraries – pandas, numpy, seaborn, matplotlib
+
+- Power BI – Data visualization and dashboard creation
