@@ -10,31 +10,42 @@
 
   - Client details
 
-Loan information (bank loans, business lending)
+  - Loan information (bank loans, business lending)
 
-Deposit types (savings, checking, foreign currency)
+  - Deposit types (savings, checking, foreign currency)
 
-Account metrics and credit card usage
+  - Account metrics and credit card usage
 
-Imported the data into MySQL to structure and normalize the data for further analysis.
+- Imported the data into MySQL to structure and normalize the data for further analysis.
 
 ### 2. Data Cleaning & Analysis
 
-Loaded the structured data into Jupyter Notebook using Python.
+- Loaded the structured data into Jupyter Notebook using Python.
 
-Conducted:
+- Conducted:
 
-Data cleaning (handling missing values, data type conversions)
+  - Data cleaning (handling missing values, data type conversions)
 
-Statistical analysis
+  - Statistical analysis
 
-Exploratory Data Analysis (EDA)
+  - Exploratory Data Analysis (EDA)
 
-Utilized libraries such as:
+- Utilized libraries such as:
 
-pandas for data manipulation
+  - pandas for data manipulation
 
-matplotlib and seaborn for visualization
+  - matplotlib and seaborn for visualization
+  - ```
+categorical_cols = df[["BRId", "GenderId", "IAId", "Amount of Credit Cards", "Nationality", "Occupation", "Fee Structure", "Loyalty Classification", "Properties Owned", "Risk Weighting", "Income Band"]].columns
+sns.set(style="whitegrid", palette="pastel")
+
+for i, predictor in enumerate(df[categorical_cols].columns):
+    plt.figure(figsize=(10, 5))
+    ax = sns.countplot(data=df, x=predictor, hue=predictor, palette="Set2", order=df[predictor].value_counts().index)
+
+  Rotate x-axis labels if too long
+  plt.xticks(rotation=45, ha='right')```
+
 
 ### 3. Dashboard Creation
 
