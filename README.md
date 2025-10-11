@@ -2,7 +2,7 @@
 
 ## Objective
 
-- The goal of this project was to create an interactive Banking Dashboard that provides a comprehensive overview of client data, loans, deposits, and account balances. The dashboard is designed to support strategic decision-making by visualizing key banking metrics.
+- The goal of this project was to create an interactive Banking Dashboard that provides a comprehensive overview of client data, loans, deposits, and account balances. The dashboard is designed to support strategic decision-making by visualizing key banking metrics and understand how data is used to minimise the risk of losing money while lending to customers.
 
 ### 1. Data Collection & Import
 
